@@ -80,8 +80,8 @@ end)
 Fly()
 pcall(function()
   game.StarterGui:SetCore("SendNotification", {
-    Title = 'fixed crash fr this time';
-    Text = 'Helo thanks';
+    Title = 'fixed every thing';
+    Text = 'Thanks for using this script!';
     Duration = 20;
   })
   if not game.Players.LocalPlayer:IsInGroup(12052955) then
@@ -92,7 +92,7 @@ pcall(function()
         Text = 'the script will still work but our group link was copied to your clipboard thx';
         Duration = 20;
        })
-       setclipboard('https://www.roblox.com/groups/12052955/Swag-mod#!/about')
+       setclipboard('https://www.roblox.com/groups/11253594/God-Mode-Guys#!/about')
     end))
   end
 end)
