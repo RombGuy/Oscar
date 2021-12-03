@@ -1,3 +1,9 @@
+pcall(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = 'Everything loaded successfully.';
+    Text = 'thanks for using my script!';
+    Duration = 20;
+  })
 repeat wait() 
 	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("HumanoidRootPart") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
 local mouse = game.Players.LocalPlayer:GetMouse() 
