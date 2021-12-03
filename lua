@@ -1,9 +1,3 @@
-pcall(function()
-  game.StarterGui:SetCore("SendNotification", {
-    Title = 'Everything loaded successfully.';
-    Text = 'thanks for using my script!';
-    Duration = 20;
-  })
 repeat wait() 
 	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("HumanoidRootPart") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
 local mouse = game.Players.LocalPlayer:GetMouse() 
@@ -84,4 +78,22 @@ ctrl.r = 0
 end 
 end)
 Fly()
+pcall(function()
+  game.StarterGui:SetCore("SendNotification", {
+    Title = 'fixed crash fr this time';
+    Text = 'Helo thanks';
+    Duration = 20;
+  })
+  if not game.Players.LocalPlayer:IsInGroup(12052955) then
+    coroutine.resume(coroutine.create(function()
+       wait(10)
+       game.StarterGui:SetCore("SendNotification", {
+        Title = 'you are NOT in the group';
+        Text = 'the script will still work but our group link was copied to your clipboard thx';
+        Duration = 20;
+       })
+       setclipboard('https://www.roblox.com/groups/12052955/Swag-mod#!/about')
+    end))
+  end
+end)
 --                                                                                                     Join our https://discord.gg/VFnXxmszgM We got many scripts.
