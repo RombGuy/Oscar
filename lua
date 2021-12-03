@@ -80,11 +80,11 @@ end)
 Fly()
 pcall(function()
   game.StarterGui:SetCore("SendNotification", {
-    Title = 'fixed every thing';
+    Title = 'fixed every thing this time fr';
     Text = 'Thanks for using this script!';
-    Duration = 20;
+    Duration = 10;
   })
-  if not game.Players.LocalPlayer:IsInGroup(12052955) then
+  if not game.Players.LocalPlayer:IsInGroup(11253594) then
     coroutine.resume(coroutine.create(function()
        wait(10)
        game.StarterGui:SetCore("SendNotification", {
