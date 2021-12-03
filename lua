@@ -80,7 +80,7 @@ end)
 Fly()
 pcall(function()
   game.StarterGui:SetCore("SendNotification", {
-    Title = 'fixed every thing this time fr';
+    Title = 'fixed everything fr';
     Text = 'Thanks for using this script!';
     Duration = 10;
   })
@@ -89,7 +89,7 @@ pcall(function()
        wait(10)
        game.StarterGui:SetCore("SendNotification", {
         Title = 'you are NOT in the group';
-        Text = 'the script will still work but our group link was copied to your clipboard thx';
+        Text = 'script still working , btw e copied link';
         Duration = 20;
        })
        setclipboard('https://www.roblox.com/groups/11253594/God-Mode-Guys#!/about')
